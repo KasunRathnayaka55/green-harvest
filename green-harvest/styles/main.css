@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+/*Na bar start*/
+#nav-outer {}
+
+.navbar-brand>img {
+    padding-left: 50px;
+}
+
+.navbar {
+    margin-right: 50px;
+}
+
+#navbarNav {
+    position: relative;
+}
+
+.nav-link {
+    font-size: small;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#nav-outer {
+    border: none;
+
+}
+
+/* navbar end */
+
+.main-bg {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 50vh;
+    position: fixed;
+}
+
+#main-bg {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*Bg end*/
+
+/*Heading start*/
+#hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+#hero1 {
+    color: white;
+    text-align: center;
+}
+
+/*Heading end*/
+
+/*Video Start*/
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Video End*/
+
+
+/*Card Start*/
+.card {}
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card>img {
+    object-fit: cover;
+}
+
+/*Card end*/
+
+
+
+/*Footer Start*/
+/*.footer{
+    margin-top: 100px;
+}*/
+
+.col-md-4 {
+    padding: 20px;
+}
+
+.col-md-4 p a {
+    color: #65822a;
+}
+
+.col-md-4 p a:hover {
+    text-decoration: none;
+}
+
+.col-md-12 {
+    background-color: #f8f9fa;
+}
+
+.col-md-4 ul li a {
+    color: #65822a;
+}
+
+.col-md-4 ul li :hover {
+    text-decoration: none;
+}
+
+.col-md-4 ul li {
+    padding: 4px;
+}
+
+.col-md-4 ul li a i {
+    margin: 10px;
+}
+
+
+/*Footer End*/
+
+/*search bar start*/
+.search-container {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /* Add a semi-transparent background */
+    padding: 20px;
+    width: 100%;
+    background: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#custom-search {
+    padding: 25px;
+    width: 700px;
+    font-size: 20px;
+}
+
+.form-group input {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    color: white;
+
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+/*search bar end*/
+
+/*main article start*/
+.mb-3 {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.mb-3 img {
+    height: 50vh;
+}
+
+/*main article end*/
+
+.nav-item a {
+    color: green;
+}
