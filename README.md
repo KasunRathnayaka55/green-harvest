@@ -26,6 +26,6 @@ Contributions to Green Harvest are welcome! Whether you're a developer, designer
 This project is licensed under the Rathnayaka. See the LICENSE file for details.
 
 ## Contact
-Have questions or suggestions? Feel free to reach out to us at k.rathnayaka@365@gmail.com.
+Have questions or suggestions? Feel free to reach out to us at k.rathnayaka365@gmail.com.
 
 Join us in cultivating a healthier planet through sustainable agriculture practices. Start your green journey today with Green Harvest Web Application!
